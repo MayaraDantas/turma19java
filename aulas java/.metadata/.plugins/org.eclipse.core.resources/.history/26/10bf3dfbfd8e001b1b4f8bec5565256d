@@ -1,0 +1,26 @@
+package RevisaoLista1;
+
+import java.util.Scanner;
+
+public class Exerciciod4 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int a, b, c;
+		int r, s, d;
+
+		System.out.println(" digite o valor de a ");
+		a = leia.nextInt();
+		System.out.println(" digite o valor de B ");
+		B = leia.nextInt();
+		System.out.println(" digite o valor de c ");
+		c = leia.nextInt();
+		
+		r= (int) Math.pow (a + b, 2);
+		s= (int) Math.pow (b + c, 2);
+		d= (r + s) /2;
+		System.out.printf(" O valor de 'R' é: %d \n O valor de 'S' é: %d \n  O valor de 'D' é: %d ", r,s,d);
+	}
+	}
+
+}

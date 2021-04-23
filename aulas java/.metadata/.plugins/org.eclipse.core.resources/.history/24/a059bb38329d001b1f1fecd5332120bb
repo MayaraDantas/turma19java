@@ -1,0 +1,28 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class TesteAnimais {
+
+	static Scanner leia = new Scanner (System.in);
+	
+	public static void main (String [] args)  {
+		  
+		List <TesteAnimais> list = new ArrayList <>();
+		
+		int idade; 
+		String nome, porte, raca; 
+		double peso;
+		
+		do {
+			System.out.println(" Digite seu Nome : ");
+			nome = leia.next();
+			System.out.println(" Digite seu Nome : ");
+			nome = leia.next();
+		      
+
+}
+}
+

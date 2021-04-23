@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\usuario\Desktop\turma19java\aulas java\.metadata\.plugins\org.eclipse.jdt.core
+637378401.index
+3883950653.index
+204434604.index
+1067094681.index
+827256296.index
+304462011.index
+3166750161.index
+2406686857.index

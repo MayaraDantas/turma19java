@@ -1,0 +1,43 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import model.DadosAnimais;
+
+public class TesteAnimais {
+
+	
+	
+	public static void main (String [] args)  {
+		  
+		static Scanner leia = new Scanner (System.in);
+		
+		List <TesteAnimais> list = new ArrayList <>();
+		
+		int idade; 
+		String nome, porte, raca; 
+		double peso;
+		
+		do {
+			System.out.println(" Digite a idade do seu bichinho: ");
+			idade = leia.nextInt();
+			
+			System.out.println(" Digite o nome do seu bichinho: ");
+			nome = leia.next();
+			
+			System.out.println(" Digite o porte do seu bichinho: ");
+		    porte = leia.next();
+		    
+			System.out.println(" Digite a raça do seu bichinho: ");
+            raca = leia.next();
+            
+            System.out.println(" Digite o peso do seu bichinho: ");
+            peso = leia.nextDouble();
+            
+            list.add(new DadosAnimais (idade, nome, porte, raca, peso));
+            
+}
+}
+

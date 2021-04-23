@@ -1,0 +1,19 @@
+package Variaveis;
+
+import java.util.Locale;
+
+public class TestandoVariaveis {
+
+	public static void main(String[] args) { // inicio do programa, tudo que esta dentro do main será executado.
+		Locale.setDefault(Locale.US); // define a linguagem padrão que eu quero ultilizar nos codigos.
+
+		// variavel é um espaço reservado para guardar uma informação dentro da memoria
+		// do pc, sendo assim guarda um valor que vareia.
+		String nome; // string é uma "variavel" ultilizada para receber texto.
+		 // 'nome' é uma variavel, '=' recebe, 'david' o valor atribuido dentro da variavel
+
+		System.out.println("o nome do sol é : " + nome);
+		nome = "David";
+	}
+
+}

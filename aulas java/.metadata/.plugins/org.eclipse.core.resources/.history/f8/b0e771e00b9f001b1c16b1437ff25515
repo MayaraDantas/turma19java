@@ -1,0 +1,57 @@
+package Ifelse;
+
+import java.util.Scanner;
+
+
+public class ifelse {
+
+	public static void main(String[] args) {
+
+		Scanner leia = new Scanner(System.in);
+
+		int numero, idade, parImpar;
+
+		System.out.println(" digite um numero ");
+		numero = leia.nextInt();
+
+		if (numero > 10) { // if é uma condição.
+			System.out.println(" o numero é maior que 10 ");
+
+		} else {
+			System.out.println(" o numero é menor que 10");
+
+		}
+		System.out.println(" qual a sua idade? ");
+		idade = leia.nextInt();
+
+		if (idade <= 10) {
+			System.out.println(" você é kids");
+
+		} else if (idade > 10 && idade < 18) {
+			System.out.println("você é adolescente");
+
+		} else {
+			System.out.println("você é um adulto vai trabalhar vagabundo.");
+		}
+
+		System.out.println(" informe um numero ");
+		parImpar = leia.nextInt();
+		
+		
+        if (parImpar == 0 ) { 
+        	System.out.println( " é um numero neutro");
+        }
+		
+		else if (parImpar % 2 == 0) {
+			System.out.println("O numero é par ");
+		
+		}  
+		
+		else {
+			System.out.println(" o seu numero é impar ");
+
+		} 
+
+	}
+
+}
