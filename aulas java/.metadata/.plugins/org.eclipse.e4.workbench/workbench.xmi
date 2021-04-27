@@ -71,10 +71,10 @@
           <tags>persp.actionSet:org.eclipse.jdt.junit.JUnitActionSet</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_91241Z1uEeun6pa2kDvFZw" selectedElement="_91243p1uEeun6pa2kDvFZw" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_91241p1uEeun6pa2kDvFZw" containerData="1720" selectedElement="_9124151uEeun6pa2kDvFZw">
-              <children xsi:type="basic:PartStack" xmi:id="_9124151uEeun6pa2kDvFZw" elementId="left" containerData="6000" selectedElement="_91242J1uEeun6pa2kDvFZw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_91241p1uEeun6pa2kDvFZw" toBeRendered="false" containerData="1720">
+              <children xsi:type="basic:PartStack" xmi:id="_9124151uEeun6pa2kDvFZw" elementId="left" toBeRendered="false" containerData="6000">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
-                <children xsi:type="advanced:Placeholder" xmi:id="_91242J1uEeun6pa2kDvFZw" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_913giZ1uEeun6pa2kDvFZw" closeable="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_91242J1uEeun6pa2kDvFZw" elementId="org.eclipse.jdt.ui.PackageExplorer" toBeRendered="false" ref="_913giZ1uEeun6pa2kDvFZw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Java</tags>
                 </children>
@@ -356,7 +356,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_913g5J1uEeun6pa2kDvFZw" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_913g5J1uEeun6pa2kDvFZw" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_913g6J1uEeun6pa2kDvFZw" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.typehierarchy.TypeHierarchyViewPart"/>
@@ -589,7 +589,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_913hRp1uEeun6pa2kDvFZw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_60drIKKiEeujzKb8nUqfnA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_916j5J1uEeun6pa2kDvFZw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ibXkJ6bmEeu_Zreg376N0w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_916j5J1uEeun6pa2kDvFZw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_913hU51uEeun6pa2kDvFZw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -620,7 +620,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_914HKZ1uEeun6pa2kDvFZw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_60h8kKKiEeujzKb8nUqfnA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_916jYZ1uEeun6pa2kDvFZw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ibhVKKbmEeu_Zreg376N0w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_916jYZ1uEeun6pa2kDvFZw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_914HNJ1uEeun6pa2kDvFZw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
