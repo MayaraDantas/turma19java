@@ -1,0 +1,5 @@
+package org.generatin.BlogPessoal.repository;
+
+public interface PostagensRepository {
+
+}

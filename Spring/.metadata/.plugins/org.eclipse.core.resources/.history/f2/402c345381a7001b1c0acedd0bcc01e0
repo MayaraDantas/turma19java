@@ -1,0 +1,7 @@
+package org.generatin.BlogPessoal.controller;
+
+public class BlogPessoalController {
+@SpringBootApplication
+
+	
+}

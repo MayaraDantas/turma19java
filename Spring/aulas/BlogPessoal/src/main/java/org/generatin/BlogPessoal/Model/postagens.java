@@ -19,7 +19,6 @@ public class postagens {
 
  @Id
  @GeneratedValue(strategy  = GenerationType.IDENTITY)
- 
  private long id;
  
  @NotNull

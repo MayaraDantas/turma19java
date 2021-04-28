@@ -1,0 +1,5 @@
+package org.generatin.BlogPessoal.controller;
+
+public class PostagensController {
+
+}
