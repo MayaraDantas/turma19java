@@ -1,0 +1,12 @@
+package org.generatin.BlogPessoal.repository;
+
+import java.util.List;
+
+import org.generatin.BlogPessoal.Model.tema;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TemaRepository<Tema> extends JpaRepository<Tema, Long> {
+
+	public List<tema> findAllByDescricaoContainingIgnoreCase(String descricao);
+
+}
