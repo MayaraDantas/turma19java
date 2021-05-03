@@ -1,0 +1,5 @@
+package com.slforever.eclipse.model;
+
+public class Postagem {
+
+}
