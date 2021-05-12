@@ -3143,3 +3143,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration FarmaciaApplication
 2021-05-04 00:41:25,086 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-05-04 00:41:25,087 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-05-04 00:41:25,087 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\usuario\Desktop\turma19java\Spring\aulas\farmacia\src\test\resources
+2021-05-05 07:13:20,455 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
